@@ -82,7 +82,7 @@ namespace KpopZtations.View.Master
 
         protected void trReportBtn_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("TransactionReport.aspx");
         }
 
         protected void trHistoryBtn_Click(object sender, EventArgs e)

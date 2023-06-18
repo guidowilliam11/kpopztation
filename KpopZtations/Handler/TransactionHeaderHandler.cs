@@ -16,6 +16,11 @@ namespace KpopZtations.Handler
             thr.add(date, customerId);
         }
 
+        public List<TransactionHeader> getTh()
+        {
+            return thr.fetchAll();
+        }
+
         public List<TransactionHeader> getUserTh(int customerId)
         {
             return thr.fetchByCustomer(customerId);

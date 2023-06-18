@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="KpopZtations.View.Master.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>KpopZtations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dDPink: '#BF0132',
+                        dPink: '#D80038',
+                        lPink: '#FFDDE6',
+                        dBlue: '#0F183E',
+                        lBlue: '#272E4B',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    fontSize: {
+                        title: '2.25rem',
+                        heading: '1.3125rem',
+                        subheading: '1.125rem',
+                        name: '1rem',
+                        subname: '0.875rem',
+                    },
+                    borderRadius: {
+                        'default': '5px',
+                    },
+                }
+            }
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="overflow-x-hidden">
+    <form id="form1" runat="server">
+        <nav class="navbar sticky top-0 z-50">
+            <ul class="bg-white shadow px-6 py-4">
+                <asp:Panel ID="loginPanelGuest" runat="server" Visible='<%# ShowElementByGuest() %>' class="flex justify-between items-center">
+                    <asp:LinkButton runat="server" ID="homeBtn" class="text-dPink font-bold text-2xl" OnClick="homeBtn_Click">KpopZtation</asp:LinkButton>
+                    <div class="flex gap-5">
+                        <asp:LinkButton runat="server" ID="loginBtn" OnClick="loginBtn_Click" class="text-dPink font-medium border-2 border-dPink px-6 py-2 rounded-full hover:bg-dPink hover:text-white">Login</asp:LinkButton>
+                        <asp:LinkButton runat="server" ID="registerBtn" OnClick="registerBtn_Click" class="text-white font-medium bg-dPink border-2 border-dPink px-6 py-2 rounded-full hover:bg-dDPink hover:border-dDPink">Register</asp:LinkButton>
+                    </div>
+                </asp:Panel>
+                <asp:Panel ID="loginPanelCustomer" runat="server" Visible='<%# ShowElementByCustomer() %>' class="flex justify-between items-center">
+                    <asp:LinkButton runat="server" ID="LinkButton2" class="text-dPink font-bold text-2xl" OnClick="homeBtn_Click">KpopZtation</asp:LinkButton>
+                    <div class="flex gap-5 text-dPink font-medium">
+                        <asp:LinkButton runat="server" ID="cartBtn" OnClick="cartBtn_Click" CssClass="border-b-2 border-transparent hover:border-dPink">Cart</asp:LinkButton>
+                        <asp:LinkButton runat="server" ID="trHistoryBtn" OnClick="trHistoryBtn_Click" CssClass="border-b-2 border-transparent hover:border-dPink">Transaction History</asp:LinkButton>
+                        <asp:LinkButton runat="server" ID="updateProfileBtn" OnClick="updateProfileBtn_Click" CssClass="border-b-2 border-transparent hover:border-dPink">Update Profile</asp:LinkButton>
+                        <asp:LinkButton runat="server" ID="logout" OnClick="logout_Click" CssClass="border-b-2 border-transparent hover:border-dPink">Logout</asp:LinkButton>
+                    </div>
+                </asp:Panel>
+                <asp:Panel ID="loginPanelAdmin" runat="server" Visible='<%# ShowElementByAdmin() %>' class="flex justify-between items-center">
+                    <asp:LinkButton runat="server" ID="LinkButton3" class="text-dPink font-bold text-2xl" OnClick="homeBtn_Click">KpopZtation</asp:LinkButton>
+                    <div class="flex gap-5 text-dPink font-medium">
+                        <asp:LinkButton runat="server" ID="trReportBtn" OnClick="trReportBtn_Click" CssClass="border-b-2 border-transparent hover:border-dPink">Transaction Report</asp:LinkButton>
+                        <asp:LinkButton runat="server" OnClick="updateProfileBtn_Click" CssClass="border-b-2 border-transparent hover:border-dPink">Update Profile</asp:LinkButton>
+                        <asp:LinkButton runat="server" ID="LinkButton1" OnClick="logout_Click" CssClass="border-b-2 border-transparent hover:border-dPink">Logout</asp:LinkButton>
+                    </div>
+                </asp:Panel>
+            </ul>
+        </nav>
+        <div class ="flex flex-col justify-center item-center w-full">
+            <asp:ContentPlaceHolder ID="AuthForm" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div class ="flex flex-col justify-center item-center">
+            <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

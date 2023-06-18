@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Authentication.master.cs" Inherits="KpopZtations.View.Master.Authentication" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>KpopZtations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+          tailwind.config = {
+              theme: {
+                  extend: {
+                      colors: {
+                          dPink: '#D80038',
+                          lPink: '#FFDDE6',
+                          dBlue: '#0F183E',
+                          lBlue: '#272E4B',
+                      },
+                      fontFamily: {
+                          sans: ['Poppins', 'sans-serif'],
+                      },
+                      fontSize: {
+                          title: '2.25rem',
+                          heading: '1.3125rem',
+                          subheading: '1.125rem',
+                          name: '1rem',
+                          subname: '0.875rem',
+                      },
+                      borderRadius: {
+                          'default': '5px',
+                      },
+                   }
+              }
+          }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body class="overflow-x-hidden bg-dPink w-screen h-screen flex items-center justify-center p-6">
+    <div class="m-auto w-[70%] bg-white bg-opacity-[90%] rounded-[5px] px-6 py-12 my-6">
+        <form id="form1" runat="server">
+            <div class="flex flex-col justify-center items-center gap-[40px]">
+                <div class="text-dPink font-bold text-title">KpopZtation</div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1227,6 +1227,7 @@
     <Content Include="View\Authentication\Register.aspx" />
     <Content Include="View\DeleteAlbumsPage.aspx" />
     <Content Include="View\DeleteArtistPage.aspx" />
+    <Content Include="View\Main\AlbumDetailsPage.aspx" />
     <Content Include="View\Main\ArtistsDetailsPage.aspx" />
     <Content Include="View\Main\CartPage.aspx" />
     <Content Include="View\Main\Home.aspx" />
@@ -1339,6 +1340,13 @@
     </Compile>
     <Compile Include="View\DeleteArtistPage.aspx.designer.cs">
       <DependentUpon>DeleteArtistPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Main\AlbumDetailsPage.aspx.cs">
+      <DependentUpon>AlbumDetailsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Main\AlbumDetailsPage.aspx.designer.cs">
+      <DependentUpon>AlbumDetailsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Main\ArtistsDetailsPage.aspx.cs">
       <DependentUpon>ArtistsDetailsPage.aspx</DependentUpon>

@@ -13,7 +13,7 @@
             <asp:Repeater runat="server" ID="albumRepeater">
                 <ItemTemplate>
                 <div class="flex flex-col gap-3 justify-between items-center shadow rounded-[5px] h-[650px]">
-                        <a href ="/View/AlbumDetailsPage.aspx?id=<%# Eval("AlbumID")%>" class="w-[350px] flex flex-col items-center ">
+                        <a href ="/View/Main/AlbumDetailsPage.aspx?id=<%# Eval("AlbumID")%>" class="w-[350px] flex flex-col items-center ">
                             <div class="w-full h-[350px]">
                                 <img src="../../Storage/Albums/<%# Eval("AlbumImage") %>" alt="Albums Image" class="rounded-[5px] w-full h-full object-cover"/>
                             </div>

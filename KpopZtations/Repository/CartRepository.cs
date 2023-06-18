@@ -57,6 +57,20 @@ namespace KpopZtations.Repository
             db.SaveChanges();
         }
 
+        public void updateQty(int customerId, int albumId, int newQty)
+        {
+            Cart c = search(customerId, albumId);
+            c.Qty = newQty;
+
+            db.SaveChanges();
+        }
+
+        public int getCartQty(int customerId, int albumId)
+        {
+            Cart c = search(customerId, albumId);
+            return (int)c.Qty;
+        }
+
         public void clearCart(int customerId)
         {
             List<Cart> cartsToDelete = db.Carts.Where(c => c.CustomerID == customerId).ToList();

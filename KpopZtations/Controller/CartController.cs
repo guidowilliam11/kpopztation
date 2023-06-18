@@ -18,9 +18,6 @@ namespace KpopZtations.Controller
             String errorMsg = null;
             Album a = new Album();
             a = ah.searchAlbum(albumId);
-            System.Diagnostics.Debug.WriteLine(a);
-
-            System.Diagnostics.Debug.WriteLine(a.AlbumStock, a.AlbumName);
 
             if (qty == -1)
             {
@@ -40,9 +37,32 @@ namespace KpopZtations.Controller
             if (errorMsg == null)
             {
                 errorMsg = null;
-                ch.insertCart(userId, albumId, qty);
+
+                if (ch.findSameAlbum(userId, albumId) == null)
+                {
+                    ch.insertCart(userId, albumId, qty);
+                }
+                else
+                {
+                    int newQty = ch.getCartQty(userId, albumId) + qty;
+                    ch.updateQty(userId, albumId, newQty);
+                }
             }
             return errorMsg;
+        }
+
+        public bool checkCart()
+        {
+            int userId = Convert.ToInt32(HttpContext.Current.Session["userId"].ToString());
+
+            List<Cart> carts = ch.getUserCart(userId);
+
+            if (carts == null)
+            {
+                return true;
+            }
+
+            return false;
         }
 
         public String checkOut()
@@ -57,7 +77,7 @@ namespace KpopZtations.Controller
             }
 
             DateTime currentDate = DateTime.Now;
-            String dateFormat = currentDate.ToString("yyyy-MM-dd");
+            String dateFormat = currentDate.ToString("yyyy-MM-dd HH:mm:ss");
 
             thh.insertTh(dateFormat, userId);
 

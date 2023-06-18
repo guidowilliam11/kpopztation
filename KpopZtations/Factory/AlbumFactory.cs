@@ -15,7 +15,7 @@ namespace KpopZtations.Factory
             a.AlbumName = albumName;
             a.AlbumImage = albumImage;
             a.AlbumPrice = albumPrice;
-            //a.AlbumStock = albumStock;
+            a.AlbumStock = albumStock;
             a.AlbumDescription = albumDescirption;
 
             return a;

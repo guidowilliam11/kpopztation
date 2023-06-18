@@ -30,5 +30,20 @@ namespace KpopZtations.Handler
         {
             cr.delete(userId, albumId);
         }
+
+        public Cart findSameAlbum(int userId, int albumId)
+        {
+            return cr.search(userId, albumId);
+        }
+
+        public void updateQty(int userId, int albumId, int newQty)
+        {
+            cr.updateQty(userId, albumId, newQty);
+        }
+
+        public int getCartQty(int userId, int albumId)
+        {
+            return cr.getCartQty(userId, albumId);
+        }
     }
 }

@@ -20,7 +20,7 @@ namespace KpopZtations.View.Main
         {
             int userId = Convert.ToInt32(Session["userId"].ToString());
             carts = ch.getUserCart(userId);
-
+            checkOutBtn.DataBind();
         }
 
         protected void checkOutBtn_Click(object sender, EventArgs e)
@@ -33,6 +33,17 @@ namespace KpopZtations.View.Main
             {
                 Response.Redirect(Request.RawUrl);
             }
+        }
+
+        protected bool ShowElementByCart()
+        {
+            CartController cc = new CartController();
+
+            if (cc.checkCart() == true)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

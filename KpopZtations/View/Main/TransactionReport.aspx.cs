@@ -30,6 +30,12 @@ namespace KpopZtations.View.Main
             var headerTable = data.TransactionHeader;
             var detailTable = data.TransactionDetail;
 
+            detailTable.Columns.Add("SubTotal", typeof(int));
+            headerTable.Columns.Add("GrandTotal", typeof(int));
+            headerTable.Columns.Add("CustomerName", typeof(string));
+
+            int grandTotal = 0;
+            int subTotal = 0;
 
             foreach(TransactionHeader th in transactionHeaders)
             {
@@ -37,7 +43,7 @@ namespace KpopZtations.View.Main
                 hrow["TranscationID"] = th.TransactionID;
                 hrow["TransactionDate"] = th.TransactionDate;
                 hrow["CustomerID"] = th.CustomerID;
-                headerTable.Rows.Add(hrow);
+                hrow["CustomerName"] = th.Customer.CustomerName;
                 
                 foreach(TransactionDetail td in th.TransactionDetails)
                 {
@@ -45,8 +51,17 @@ namespace KpopZtations.View.Main
                     drow["TransactionID"] = td.TransactionID;
                     drow["AlbumID"] = td.AlbumID;
                     drow["Qty"] = td.Qty;
+
+                    int detailSubtotal = (int)(td.Qty * td.Album.AlbumPrice);
+                    
+                    grandTotal += detailSubtotal;
+
+                    drow["SubTotal"] = detailSubtotal;
                     detailTable.Rows.Add(drow);
+                    
                 }
+                hrow["GrandTotal"] = grandTotal;
+                headerTable.Rows.Add(hrow);
             }
             return data;
         }

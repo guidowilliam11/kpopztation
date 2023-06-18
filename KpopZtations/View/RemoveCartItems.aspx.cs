@@ -16,7 +16,7 @@ namespace KpopZtations.View
             int albumId = Convert.ToInt32(Request.QueryString["id"]);
             int userId = Convert.ToInt32(Session["userId"]);
             ch.deleteCart(userId, albumId);
-            Response.Redirect("CartPage.aspx");
+            Response.Redirect("Main/CartPage.aspx");
         }
     }
 }

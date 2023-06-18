@@ -127,7 +127,7 @@ namespace KpopZtations.Controller
                 String filePath = HttpContext.Current.Server.MapPath("../../Storage/Albums/") + fileImage;
 
                 image.SaveAs(filePath);
-
+                System.Diagnostics.Debug.WriteLine("Stocknya berapa " + stock);
                 ah.addAlbum(artistId, name, fileImage, price, stock, description);
             }
             return errorMsg;

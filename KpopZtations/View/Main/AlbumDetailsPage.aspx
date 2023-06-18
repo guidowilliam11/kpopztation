@@ -6,7 +6,7 @@
    
     <div class ="d-flex justify-content-around flex-row">
         <div>                   
-            <img src="../Storage/Albums/<%= CurrentAlbum.AlbumImage %>" alt="Album Image" width="180px" height="180px" style="border-radius: 7px; margin-top:18px; margin-bottom: 15px;" />
+            <img src="../../Storage/Albums/<%= CurrentAlbum.AlbumImage %>" alt="Album Image" width="180px" height="180px" style="border-radius: 7px; margin-top:18px; margin-bottom: 15px;" />
         </div>
         <div class="d-flex justify-content-around align-items-center flex-column details">
             <h2>Album Name: <%= CurrentAlbum.AlbumName %></h2>
@@ -19,9 +19,9 @@
     <div class="d-flex justify-content-center align-items-center flex-row" >
         <div class="d-flex flex-column align-items-center">
             <asp:Label runat="server" ID="qtyLbl" Visible="<%# ShowElementByCustomer() %>">Quantity</asp:Label>
-            <asp:TextBox ID="qtyTb" runat="server"  Visible="<%# ShowElementByCustomer() %>" ></asp:TextBox>
+            <asp:TextBox ID="qtyTb" runat="server"  Visible="<%# ShowElementByCustomer() %>" BackColor="Pink"></asp:TextBox>
         </div>
-        <asp:Button ID="addToCartBtn" runat="server" Text="Add To Cart" CssClass="insert-artist-btn" OnClick="addToCartBtn_Click" Visible="<%# ShowElementByCustomer() %>"/>
+        <asp:Button ID="addToCartBtn" runat="server" Text="Add To Cart" OnClick="addToCartBtn_Click" Visible="<%# ShowElementByCustomer() %>" BackColor="Pink"/>
     </div>
     <div>
         <asp:Label ID="lblError" runat="server" Text=""></asp:Label>

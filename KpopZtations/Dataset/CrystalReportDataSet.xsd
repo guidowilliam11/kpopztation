@@ -12,7 +12,7 @@
   <xs:element name="CrystalReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CrystalReportDataSet" msprop:Generator_UserDSName="CrystalReportDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="TransactionHeader" msprop:Generator_TableClassName="TransactionHeaderDataTable" msprop:Generator_TableVarName="tableTransactionHeader" msprop:Generator_TablePropName="TransactionHeader" msprop:Generator_RowDeletingName="TransactionHeaderRowDeleting" msprop:Generator_RowChangingName="TransactionHeaderRowChanging" msprop:Generator_RowEvHandlerName="TransactionHeaderRowChangeEventHandler" msprop:Generator_RowDeletedName="TransactionHeaderRowDeleted" msprop:Generator_UserTableName="TransactionHeader" msprop:Generator_RowChangedName="TransactionHeaderRowChanged" msprop:Generator_RowEvArgName="TransactionHeaderRowChangeEvent" msprop:Generator_RowClassName="TransactionHeaderRow">
+        <xs:element name="TransactionHeader" msprop:Generator_TableClassName="TransactionHeaderDataTable" msprop:Generator_TableVarName="tableTransactionHeader" msprop:Generator_RowChangedName="TransactionHeaderRowChanged" msprop:Generator_TablePropName="TransactionHeader" msprop:Generator_RowDeletingName="TransactionHeaderRowDeleting" msprop:Generator_RowChangingName="TransactionHeaderRowChanging" msprop:Generator_RowEvHandlerName="TransactionHeaderRowChangeEventHandler" msprop:Generator_RowDeletedName="TransactionHeaderRowDeleted" msprop:Generator_RowClassName="TransactionHeaderRow" msprop:Generator_UserTableName="TransactionHeader" msprop:Generator_RowEvArgName="TransactionHeaderRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="TranscationID" msprop:Generator_ColumnVarNameInTable="columnTranscationID" msprop:Generator_ColumnPropNameInRow="TranscationID" msprop:Generator_ColumnPropNameInTable="TranscationIDColumn" msprop:Generator_UserColumnName="TranscationID" type="xs:string" minOccurs="0" />
@@ -21,7 +21,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="TransactionDetail" msprop:Generator_TableClassName="TransactionDetailDataTable" msprop:Generator_TableVarName="tableTransactionDetail" msprop:Generator_TablePropName="TransactionDetail" msprop:Generator_RowDeletingName="TransactionDetailRowDeleting" msprop:Generator_RowChangingName="TransactionDetailRowChanging" msprop:Generator_RowEvHandlerName="TransactionDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="TransactionDetailRowDeleted" msprop:Generator_UserTableName="TransactionDetail" msprop:Generator_RowChangedName="TransactionDetailRowChanged" msprop:Generator_RowEvArgName="TransactionDetailRowChangeEvent" msprop:Generator_RowClassName="TransactionDetailRow">
+        <xs:element name="TransactionDetail" msprop:Generator_TableClassName="TransactionDetailDataTable" msprop:Generator_TableVarName="tableTransactionDetail" msprop:Generator_RowChangedName="TransactionDetailRowChanged" msprop:Generator_TablePropName="TransactionDetail" msprop:Generator_RowDeletingName="TransactionDetailRowDeleting" msprop:Generator_RowChangingName="TransactionDetailRowChanging" msprop:Generator_RowEvHandlerName="TransactionDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="TransactionDetailRowDeleted" msprop:Generator_RowClassName="TransactionDetailRow" msprop:Generator_UserTableName="TransactionDetail" msprop:Generator_RowEvArgName="TransactionDetailRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="TransactionID" msprop:Generator_ColumnVarNameInTable="columnTransactionID" msprop:Generator_ColumnPropNameInRow="TransactionID" msprop:Generator_ColumnPropNameInTable="TransactionIDColumn" msprop:Generator_UserColumnName="TransactionID" type="xs:string" minOccurs="0" />
@@ -35,7 +35,7 @@
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="TransactionHeader_TransactionDetail" msdata:parent="TransactionHeader" msdata:child="TransactionDetail" msdata:parentkey="TranscationID" msdata:childkey="TransactionID" msprop:Generator_UserChildTable="TransactionDetail" msprop:Generator_ChildPropName="GetTransactionDetailRows" msprop:Generator_UserRelationName="TransactionHeader_TransactionDetail" msprop:Generator_ParentPropName="TransactionHeaderRow" msprop:Generator_RelationVarName="relationTransactionHeader_TransactionDetail" msprop:Generator_UserParentTable="TransactionHeader" />
+      <msdata:Relationship name="TransactionHeader_TransactionDetail" msdata:parent="TransactionHeader" msdata:child="TransactionDetail" msdata:parentkey="TranscationID" msdata:childkey="TransactionID" msprop:Generator_UserChildTable="TransactionDetail" msprop:Generator_ChildPropName="GetTransactionDetailRows" msprop:Generator_UserRelationName="TransactionHeader_TransactionDetail" msprop:Generator_RelationVarName="relationTransactionHeader_TransactionDetail" msprop:Generator_UserParentTable="TransactionHeader" msprop:Generator_ParentPropName="TransactionHeaderRow" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

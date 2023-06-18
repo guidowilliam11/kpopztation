@@ -43,7 +43,7 @@
 
         <div><asp:Button ID="btnUpdate" runat="server" Text="Update Profile" OnClick="btnUpdate_Click"/></div>
 
-        <div><asp:Button  class="text-dPink font-medium border-2 border-dPink px-6 py-2 rounded-full hover:bg-dPink hover:text-white" ID="btnDelete" runat="server" Text="Delete Account" OnClick="btnDelete_Click" BackColor="Red"/></div>
+        <div><asp:Button  class="text-white font-medium border-2 border-dPink px-6 py-2 rounded-full hover:bg-dPink hover:text-white" ID="btnDelete" runat="server" Text="Delete Account" OnClick="btnDelete_Click" BackColor="Red"/></div>
     </div>
 
 </asp:Content>

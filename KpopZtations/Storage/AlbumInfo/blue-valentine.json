@@ -1,0 +1,80 @@
+{
+ "kind": "Album",
+ "released": "2025-10-13",
+ "genre": "K-Pop",
+ "copyright": "℗ 2025 JYP Entertainment",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Blue Valentine",
+   "ms": 186000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1f/59/35/1f59352b-302e-2631-6959-5a9b44251e4e/mzaf_17173132131021232743.plus.aac.p.m4a"
+  },
+  {
+   "n": 2,
+   "title": "SPINNIN′ ON IT",
+   "ms": 196000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/99/f5/cb99f52f-9a8b-ff76-fb12-788435ec1cfd/mzaf_18285141723592926737.plus.aac.p.m4a"
+  },
+  {
+   "n": 3,
+   "title": "Phoenix",
+   "ms": 164000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/66/d8/b666d89b-f7c1-4541-4893-b1845d79359d/mzaf_8389708915204331360.plus.aac.p.m4a"
+  },
+  {
+   "n": 4,
+   "title": "Reality Hurts",
+   "ms": 155000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/29/ac/c129ac18-5579-736f-b1c8-1034596c254f/mzaf_17407581787962527490.plus.aac.p.m4a"
+  },
+  {
+   "n": 5,
+   "title": "RICO",
+   "ms": 152000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/b4/c3/9cb4c3e9-44ea-01db-04d0-b60203005c56/mzaf_18196823572212495179.plus.aac.p.m4a"
+  },
+  {
+   "n": 6,
+   "title": "Game Face",
+   "ms": 163000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/19/f2/8719f2ab-1c73-3a13-0ee3-1f576ae043b6/mzaf_6132153940745505720.plus.aac.p.m4a"
+  },
+  {
+   "n": 7,
+   "title": "PODIUM",
+   "ms": 181000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/f0/86/fbf08615-c3d4-4c46-4d0d-803a92c757bf/mzaf_12428482662514304501.plus.aac.p.m4a"
+  },
+  {
+   "n": 8,
+   "title": "Crush On You",
+   "ms": 159000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/77/68/1377689e-bcfa-8fec-1066-1cdcf02d5c53/mzaf_10749505897456460917.plus.aac.p.m4a"
+  },
+  {
+   "n": 9,
+   "title": "ADORE U",
+   "ms": 150000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/ea/d4/92ead4e9-178c-c65a-2005-3a18f9c2fad8/mzaf_13580287221501771606.plus.aac.p.m4a"
+  },
+  {
+   "n": 10,
+   "title": "Shape of Love",
+   "ms": 172000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/46/10/aa461031-82af-9617-8a52-7800f2e01a6a/mzaf_9802706973032873542.plus.aac.p.m4a"
+  },
+  {
+   "n": 11,
+   "title": "O.O Pt. 1 (Baila)",
+   "ms": 186000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/77/8d/1c778d41-859e-6d06-f303-34deeeaf4601/mzaf_17532183567395240968.plus.aac.p.m4a"
+  },
+  {
+   "n": 12,
+   "title": "O.O Pt. 2 (Superhero)",
+   "ms": 176000,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/b5/9c/e9b59c41-20fc-ad58-2417-635ae0742ba9/mzaf_8396751062055893461.plus.aac.p.m4a"
+  }
+ ]
+}

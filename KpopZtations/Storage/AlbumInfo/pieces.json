@@ -1,0 +1,38 @@
+{
+ "kind": "EP",
+ "released": "2021-12-29",
+ "genre": "K-Pop",
+ "copyright": "℗ 2021 EDAM Entertainment,under license to Kakao Entertainment",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Drama",
+   "ms": 128107,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/51/b8/3e51b897-3224-8b33-4a55-0fafd90cfa98/mzaf_4753091584579098914.plus.aac.p.m4a"
+  },
+  {
+   "n": 2,
+   "title": "Next Stop",
+   "ms": 236480,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/64/47/c36447cd-6785-f4df-0586-c51de360af6f/mzaf_14707565818677432302.plus.aac.p.m4a"
+  },
+  {
+   "n": 3,
+   "title": "Winter Sleep",
+   "ms": 262120,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/f5/f4/41f5f46b-3781-7cfa-c81d-974fd4dcf9ee/mzaf_2407621773609476264.plus.aac.p.m4a"
+  },
+  {
+   "n": 4,
+   "title": "You",
+   "ms": 206373,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/4b/4d/144b4db5-dc3f-d56c-1c0c-3a131e6a0819/mzaf_8027999782666598550.plus.aac.p.m4a"
+  },
+  {
+   "n": 5,
+   "title": "Love Letter",
+   "ms": 238333,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/a5/2d/6ca52d9e-7180-ba22-a563-290fd35bda05/mzaf_3403191111090880467.plus.aac.p.m4a"
+  }
+ ]
+}

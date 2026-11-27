@@ -24,6 +24,16 @@ namespace KpopZtations.View.Main
         protected global::System.Web.UI.WebControls.Repeater artistRepeater;
 
         /// <summary>
+        /// newAlbumsRepeater control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.Repeater newAlbumsRepeater;
+
+        /// <summary>
+        /// bestRepeater control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.Repeater bestRepeater;
+
+        /// <summary>
         /// insertArtist control.
         /// </summary>
         /// <remarks>

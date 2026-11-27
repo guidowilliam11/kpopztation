@@ -1260,6 +1260,7 @@
     <Compile Include="Factory\CustomerFactory.cs" />
     <Compile Include="Factory\TransactionDetailFactory.cs" />
     <Compile Include="Factory\TransactionHeaderFactory.cs" />
+    <Compile Include="Helper\Catalog.cs" />
     <Compile Include="Handler\AlbumHandler.cs" />
     <Compile Include="Handler\ArtistHandler.cs" />
     <Compile Include="Handler\CartHandler.cs" />

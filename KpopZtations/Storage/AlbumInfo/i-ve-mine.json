@@ -1,0 +1,44 @@
+{
+ "kind": "EP",
+ "released": "2023-10-13",
+ "genre": "K-Pop",
+ "copyright": "℗ 2023 Starship Entertainment",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Off The Record",
+   "ms": 188733,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/f7/f2/b0f7f249-ab08-ef1c-93dd-03fb74ae7462/mzaf_11263065537529760855.plus.aac.p.m4a"
+  },
+  {
+   "n": 2,
+   "title": "Baddie",
+   "ms": 154360,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/1b/b7/761bb77b-e8f1-8e02-2c63-e77f39281c21/mzaf_6248546002557999331.plus.aac.p.m4a"
+  },
+  {
+   "n": 3,
+   "title": "Either Way",
+   "ms": 166947,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/61/d6/7a61d683-c133-35d4-353f-b09a78f193e9/mzaf_6956002041198425982.plus.aac.p.m4a"
+  },
+  {
+   "n": 4,
+   "title": "Holy Moly",
+   "ms": 176760,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/a9/bd/e4a9bdb8-e0fc-a487-e352-3d1ccaec5046/mzaf_12705680602776557343.plus.aac.p.m4a"
+  },
+  {
+   "n": 5,
+   "title": "OTT",
+   "ms": 157187,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/d3/7b/f2d37be6-6f4e-4a6c-2a50-5218863d9f95/mzaf_5123182136989982716.plus.aac.p.m4a"
+  },
+  {
+   "n": 6,
+   "title": "Payback",
+   "ms": 188213,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/0d/50/e10d50c4-5193-bc12-1873-1669201e6d54/mzaf_7562357431430744880.plus.aac.p.m4a"
+  }
+ ]
+}

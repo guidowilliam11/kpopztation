@@ -16,6 +16,8 @@ namespace KpopZtations.View.Main
         private ArtistHandler ah = new ArtistHandler();
 
         public List<Artist> artist = new List<Artist>();
+        public KpopZtations.Helper.AlbumView Featured { get; set; }
+        public int BestCount { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -23,6 +25,14 @@ namespace KpopZtations.View.Main
 
             artistRepeater.DataSource = artist;
             artistRepeater.DataBind();
+            var releases = KpopZtations.Helper.Catalog.NewReleases(10);
+            Featured = releases.FirstOrDefault();
+            newAlbumsRepeater.DataSource = releases.Skip(1);
+            newAlbumsRepeater.DataBind();
+            var best = KpopZtations.Helper.Catalog.BestSellers(6);
+            BestCount = best.Count;
+            bestRepeater.DataSource = best;
+            bestRepeater.DataBind();
 
             insertArtist.DataBind();
         }

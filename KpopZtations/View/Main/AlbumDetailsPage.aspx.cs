@@ -13,14 +13,22 @@ namespace KpopZtations.View.Main
     public partial class AlbumDetailsPage : System.Web.UI.Page
     {
         public Album CurrentAlbum { get; set; }
+        public KpopZtations.Helper.AlbumView Current { get; set; }
+        public int MoreCount { get; set; }
         AlbumHandler ah = new AlbumHandler();
         protected void Page_Load(object sender, EventArgs e)
         {
             int id = Convert.ToInt32(Request.QueryString["id"].ToString());
 
             CurrentAlbum = ah.searchAlbum(id);
+            Current = KpopZtations.Helper.Catalog.One(id);
+            tracksRepeater.DataSource = Current.Info.tracks;
+            tracksRepeater.DataBind();
+            var more = KpopZtations.Helper.Catalog.ByArtist(CurrentAlbum.ArtistID).Where(a => a.AlbumID != id).ToList();
+            MoreCount = more.Count;
+            moreRepeater.DataSource = more;
+            moreRepeater.DataBind();
             addToCartBtn.DataBind();
-            qtyLbl.DataBind();
             qtyTb.DataBind();
         }
 

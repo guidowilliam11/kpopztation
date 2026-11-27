@@ -16,6 +16,12 @@ namespace KpopZtations.Handler
             ar.add(artistId, albumName, albumImage, albumPrice, albumStock, albumDescirption);
         }
 
+        // Newest first: the highest ids were added last.
+        public List<Album> getNewestAlbums(int count)
+        {
+            return ar.fetchAll().OrderByDescending(a => a.AlbumID).Take(count).ToList();
+        }
+
         public List<Album> getAlbumsByArtist(int artistId)
         {
             return ar.fetchByArtist(artistId);

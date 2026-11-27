@@ -13,16 +13,19 @@ namespace KpopZtations.View.Main
     {
         AlbumHandler ah = new AlbumHandler();
         ArtistHandler arh = new ArtistHandler();
+        public Artist CurrentArtist { get; set; }
+        public List<KpopZtations.Helper.AlbumView> Releases { get; set; }
+        public KpopZtations.Helper.AlbumView Latest { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             int id = Convert.ToInt32(Request.QueryString["id"]);
-            List<Album> albumsList = ah.getAlbumsByArtist(id);
-            Artist ar = arh.getArtist(id);
-
-            albumRepeater.DataSource = albumsList;
-            artistNameLbl.Text = ar.ArtistName;
+            CurrentArtist = arh.getArtist(id);
+            Releases = KpopZtations.Helper.Catalog.ByArtist(id);
+            Latest = Releases.FirstOrDefault();
+            albumRepeater.DataSource = Releases;
+            artistNameLbl.Text = CurrentArtist.ArtistName;
             albumRepeater.DataBind();
-
             insertAlbum.DataBind();
         }
 

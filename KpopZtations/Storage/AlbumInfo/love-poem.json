@@ -1,0 +1,44 @@
+{
+ "kind": "EP",
+ "released": "2019-11-18",
+ "genre": "K-Pop",
+ "copyright": "℗ 2019 Kakao Entertainment,under license to Kakao Entertainment",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Unlucky",
+   "ms": 231133,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/f4/54/6bf45455-3466-e235-84aa-3dad77e7ed72/mzaf_8581484317538083941.plus.aac.p.m4a"
+  },
+  {
+   "n": 2,
+   "title": "The Visitor",
+   "ms": 231187,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/12/93/37129360-4506-52ff-1586-c4e551ffadb8/mzaf_6388278618386389550.plus.aac.p.m4a"
+  },
+  {
+   "n": 3,
+   "title": "Blueming",
+   "ms": 217053,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/08/47/150847d9-2c85-b6b5-a2eb-b61ceb4517e0/mzaf_168895178236497376.plus.aac.p.m4a"
+  },
+  {
+   "n": 4,
+   "title": "Above the Time",
+   "ms": 300733,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/9b/55/ac9b5538-484b-56ef-cdd1-85f4ebabe834/mzaf_2283002716047672202.plus.aac.p.m4a"
+  },
+  {
+   "n": 5,
+   "title": "Lullaby",
+   "ms": 261720,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/df/6b/25df6b9d-45a2-101e-1701-c6898cc36a75/mzaf_1101707968145220409.plus.aac.p.m4a"
+  },
+  {
+   "n": 6,
+   "title": "Love Poem",
+   "ms": 258239,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/af/59/c0af5939-6434-69be-2628-99c1455256c3/mzaf_3831246281503898434.plus.aac.p.m4a"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "kind": "Album",
+ "released": "2015-10-23",
+ "genre": "K-Pop",
+ "copyright": "℗ Kakao Entertainment,under license to Kakao Entertainment",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "새 신발 Shoes",
+   "ms": 215205,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/6b/e3/cb6be3f3-3d2b-3f22-9fa8-22af963a40e9/mzaf_1112611692268200845.plus.aac.p.m4a"
+  },
+  {
+   "n": 2,
+   "title": "Zezé",
+   "ms": 190711,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/14/58/701458c8-241a-1d70-3db9-f5fb28965b96/mzaf_3698627979198253429.plus.aac.p.m4a"
+  },
+  {
+   "n": 3,
+   "title": "스물셋 Twenty-Three",
+   "ms": 194325,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/bc/c3/debcc392-e0cb-e487-273d-13725c93e93d/mzaf_8155948164669914598.plus.aac.p.m4a"
+  },
+  {
+   "n": 4,
+   "title": "푸르던 The Shower",
+   "ms": 247106,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/5f/55/625f5556-cc4b-1517-eac5-e499f2c704b1/mzaf_12341692477544195150.plus.aac.p.m4a"
+  },
+  {
+   "n": 5,
+   "title": "Red Queen (feat. Zion.T)",
+   "ms": 212518,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/27/dc/4a27dcf7-b0be-1601-4e0c-fb5cffcfb0c8/mzaf_228432012103293314.plus.aac.p.m4a"
+  },
+  {
+   "n": 6,
+   "title": "무릎 Knees",
+   "ms": 282887,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b9/84/fd/b984fd65-687a-cd9e-8038-ead48a3bbb60/mzaf_2099700060415143799.plus.aac.p.m4a"
+  },
+  {
+   "n": 7,
+   "title": "안경 Glasses",
+   "ms": 196556,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/16/2d/59162dd9-b31b-7430-3074-15806f3e9bc0/mzaf_13410070156423964985.plus.aac.p.m4a"
+  }
+ ]
+}

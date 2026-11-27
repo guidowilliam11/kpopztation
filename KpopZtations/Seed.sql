@@ -1,0 +1,30 @@
+-- Sample catalogue: four artists, five releases each. Track lists, dates and covers come from
+-- the iTunes Search API (Storage/AlbumInfo/*.json, Storage/Albums/itunes-*.jpg). Run after Database.sql.
+SET IDENTITY_INSERT [dbo].[Artist] ON;
+INSERT INTO [dbo].[Artist] (ArtistID, ArtistName, ArtistImage) VALUES (1, N'IU', '638057862770194070.jpeg');
+INSERT INTO [dbo].[Artist] (ArtistID, ArtistName, ArtistImage) VALUES (2, N'LE SSERAFIM', '638057899497035774.jfif');
+INSERT INTO [dbo].[Artist] (ArtistID, ArtistName, ArtistImage) VALUES (3, N'IVE', '638057900448119533.jfif');
+INSERT INTO [dbo].[Artist] (ArtistID, ArtistName, ArtistImage) VALUES (4, N'NMIXX', '638059446432559006.jfif');
+SET IDENTITY_INSERT [dbo].[Artist] OFF;
+SET IDENTITY_INSERT [dbo].[Album] ON;
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (1, 1, N'LILAC', 'itunes-1560113132.jpg', 289000, 27, N'Album by IU, 2021.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (2, 1, N'Love poem', 'itunes-1488300927.jpg', 249000, 18, N'EP by IU, 2019.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (3, 1, N'CHAT-SHIRE', 'itunes-1051977837.jpg', 289000, 6, N'Album by IU, 2015.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (4, 1, N'Palette', 'itunes-1229073300.jpg', 289000, 40, N'Album by IU, 2017.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (5, 1, N'Pieces', 'itunes-1602185213.jpg', 249000, 0, N'EP by IU, 2021.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (6, 2, N'UNFORGIVEN', 'itunes-1682502020.jpg', 289000, 33, N'Album by LE SSERAFIM, 2023.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (7, 2, N'ANTIFRAGILE', 'itunes-1647830231.jpg', 249000, 12, N'EP by LE SSERAFIM, 2022.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (8, 2, N'EASY', 'itunes-1728928730.jpg', 249000, 4, N'EP by LE SSERAFIM, 2024.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (9, 2, N'CRAZY', 'itunes-1763658157.jpg', 249000, 25, N'EP by LE SSERAFIM, 2024.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (10, 2, N'HOT', 'itunes-1799278610.jpg', 249000, 30, N'EP by LE SSERAFIM, 2025.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (11, 3, N'I''ve IVE', 'itunes-1680047093.jpg', 289000, 22, N'Album by IVE, 2023.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (12, 3, N'I''VE MINE', 'itunes-1709569466.jpg', 249000, 0, N'EP by IVE, 2023.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (13, 3, N'IVE SWITCH', 'itunes-1741070979.jpg', 249000, 15, N'EP by IVE, 2024.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (14, 3, N'IVE EMPATHY', 'itunes-1789740675.jpg', 249000, 9, N'EP by IVE, 2025.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (15, 3, N'REVIVE+', 'itunes-1873882195.jpg', 289000, 50, N'Album by IVE, 2026.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (16, 4, N'Blue Valentine', 'itunes-1839523838.jpg', 289000, 45, N'Album by NMIXX, 2025.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (17, 4, N'Fe3O4: FORWARD', 'itunes-1799674112.jpg', 249000, 8, N'EP by NMIXX, 2025.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (18, 4, N'Fe3O4: STICK OUT', 'itunes-1760493303.jpg', 249000, 19, N'EP by NMIXX, 2024.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (19, 4, N'Fe3O4: BREAK', 'itunes-1719887126.jpg', 289000, 26, N'Album by NMIXX, 2024.');
+INSERT INTO [dbo].[Album] (AlbumID, ArtistID, AlbumName, AlbumImage, AlbumPrice, AlbumStock, AlbumDescription) VALUES (20, 4, N'expérgo', 'itunes-1689309595.jpg', 249000, 14, N'EP by NMIXX, 2023.');
+SET IDENTITY_INSERT [dbo].[Album] OFF;

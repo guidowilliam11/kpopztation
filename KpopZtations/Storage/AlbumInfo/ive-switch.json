@@ -1,0 +1,44 @@
+{
+ "kind": "EP",
+ "released": "2024-04-29",
+ "genre": "K-Pop",
+ "copyright": "℗ 2024 Starship Entertainment",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "HEYA",
+   "ms": 189680,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/a7/4d/43a74d0f-ef5f-b714-d812-5839d78a7bd7/mzaf_13646341762554566811.plus.aac.p.m4a"
+  },
+  {
+   "n": 2,
+   "title": "Accendio",
+   "ms": 192013,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/fd/2b/fefd2be3-b963-37e2-1db6-5b648274fe75/mzaf_8434992173599027208.plus.aac.p.m4a"
+  },
+  {
+   "n": 3,
+   "title": "Blue Heart",
+   "ms": 187853,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/79/86/b1798646-fa4b-f4a4-4d51-9d57c0d21441/mzaf_13967523534465216158.plus.aac.p.m4a"
+  },
+  {
+   "n": 4,
+   "title": "Ice Queen",
+   "ms": 183227,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/f2/ce/f8f2ce4b-dcf1-5824-61c5-279c06b1a9d0/mzaf_16943025571320727794.plus.aac.p.m4a"
+  },
+  {
+   "n": 5,
+   "title": "WOW",
+   "ms": 178573,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/5d/7a/c75d7a84-d5c1-64f3-e63d-b8d810b954ba/mzaf_2143364387887168436.plus.aac.p.m4a"
+  },
+  {
+   "n": 6,
+   "title": "RESET",
+   "ms": 161280,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/27/c1/4927c198-4db0-a955-468b-053a2c8f6cb4/mzaf_8989422132762982912.plus.aac.p.m4a"
+  }
+ ]
+}

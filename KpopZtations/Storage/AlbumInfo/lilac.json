@@ -1,0 +1,68 @@
+{
+ "kind": "Album",
+ "released": "2021-03-25",
+ "genre": "K-Pop",
+ "copyright": "℗ 2021 EDAM엔터테인먼트(EDAM Entertainment),under license to Kakao Entertainment",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Lilac",
+   "ms": 214253,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/62/d2/be62d240-fe27-0514-9e20-b29645cc3dcb/mzaf_8930037822844249227.plus.aac.p.m4a"
+  },
+  {
+   "n": 2,
+   "title": "Flu",
+   "ms": 188293,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/c5/6e/35c56e56-d67d-e0e1-3d90-c1b394da0ec9/mzaf_4123618084284598892.plus.aac.p.m4a"
+  },
+  {
+   "n": 3,
+   "title": "Coin",
+   "ms": 193080,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/6f/dd/0b6fddab-11ac-9bca-cdea-d97fb2822cf0/mzaf_4616441586015807320.plus.aac.p.m4a"
+  },
+  {
+   "n": 4,
+   "title": "Hi Spring Bye",
+   "ms": 324280,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/e1/c6/a6e1c63d-d887-922c-7a5c-03181cca632a/mzaf_15094790533970066232.plus.aac.p.m4a"
+  },
+  {
+   "n": 5,
+   "title": "Celebrity",
+   "ms": 195547,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/f2/a5/89f2a55d-b4d8-fdcc-1dd2-274e5f783fd0/mzaf_535474567624350483.plus.aac.p.m4a"
+  },
+  {
+   "n": 6,
+   "title": "Troll (feat. DEAN)",
+   "ms": 189920,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/5a/2f/2e5a2f78-d6ae-6706-625f-1222de18bd6f/mzaf_9971520693529622554.plus.aac.p.m4a"
+  },
+  {
+   "n": 7,
+   "title": "Empty Cup",
+   "ms": 139800,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3a/f6/e5/3af6e5a4-83d7-6814-6ac0-2eee30487e16/mzaf_12369583566572737257.plus.aac.p.m4a"
+  },
+  {
+   "n": 8,
+   "title": "My Sea",
+   "ms": 316507,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/70/e4/5a70e4cb-9aa5-9f28-4877-59f18d8fa0a3/mzaf_10434209353517335213.plus.aac.p.m4a"
+  },
+  {
+   "n": 9,
+   "title": "Ah puh",
+   "ms": 200293,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/c0/e9/a7c0e9d1-1aec-53f2-44cc-0e8fd1487b74/mzaf_14621666470824264109.plus.aac.p.m4a"
+  },
+  {
+   "n": 10,
+   "title": "Epilogue",
+   "ms": 229573,
+   "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/0c/24/0e0c2402-83a1-22fa-a921-e86bb9649f78/mzaf_13103500424931241846.plus.aac.p.m4a"
+  }
+ ]
+}
